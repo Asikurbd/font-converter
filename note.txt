@@ -1,0 +1,19 @@
+
+
+নিচের কোডটি কপি করে 
+function callAll(jsfiles) {
+    var src = document.createElement("script");
+    src.setAttribute("type", "text/javascript");
+    src.setAttribute("src", jsfiles);
+    document.getElementsByTagName("head")[0].appendChild(src);
+}
+callAll("https://cdn.jsdelivr.net/gh/Asikurbd/font-converter/script.js");
+
+নিচের দেয়া এই সাইট থেকে উপরের কোডটা কপি পেস্ট করে কোড Obfuscator করে নিতে হবে।
+https://javascriptobfuscator.com/Javascript-Obfuscator.aspx
+
+তারপর 
+
+<script type="text/javascript">
+এরপর Obfuscator করা কোডটি এর ভিতরে বসাতে হবে।
+</script>
